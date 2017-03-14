@@ -11,80 +11,14 @@
     </view>
 
     <view class="boardlist texcen colfff">
-        <view class="board" bindtap="showme" data-status="{{obj.status}}" wx:for="bolist" wx:for-item="obj" wx:key="*this">
-            <view class="boardcar bgblue">
+        <view class="board bgcol{{obj.status}}" bindtap="showme" data-status="{{obj.status}}" wx:for="{{bolist}}" wx:for-item="obj" wx:key="*this">
+            <view class="boardcar">
                 <text>{{obj.boardnum}}</text>
             </view>
-            <view class="boardinfo bgblue">{{obj.mannum}}人桌</view>
+            <view class="boardinfo">{{obj.mannum}}人桌</view>
         </view>
         
 
-        <view class="board" bindtap="showme" data-status="1">
-            <view class="boardcar bgred">
-                <text>1</text>
-            </view>
-            <view class="boardinfo bgred">4人桌</view>
-        </view>
-        
-         <view class="board" bindtap="showme" data-status="0">
-            <view class="boardcar bgblue">
-                <text>1</text>
-            </view>
-            <view class="boardinfo bgblue">4人桌</view>
-        </view>
-        <view class="board" bindtap="showme" data-status="1">
-            <view class="boardcar bgred">
-                <text>1</text>
-            </view>
-            <view class="boardinfo bgred">4人桌</view>
-        </view>
-         <view class="board">
-            <view class="boardcar bgblue">
-                <text>1</text>
-            </view>
-            <view class="boardinfo bgblue">4人桌</view>
-        </view>
-        <view class="board">
-            <view class="boardcar bgred">
-                <text>1</text>
-            </view>
-            <view class="boardinfo bgred">4人桌</view>
-        </view>
-         <view class="board">
-            <view class="boardcar bgblue">
-                <text>1</text>
-            </view>
-            <view class="boardinfo bgblue">4人桌</view>
-        </view>
-        <view class="board">
-            <view class="boardcar bgred">
-                <text>1</text>
-            </view>
-            <view class="boardinfo bgred">4人桌</view>
-        </view>
-         <view class="board">
-            <view class="boardcar bgblue">
-                <text>1</text>
-            </view>
-            <view class="boardinfo bgblue">4人桌</view>
-        </view>
-        <view class="board">
-            <view class="boardcar bgred">
-                <text>1</text>
-            </view>
-            <view class="boardinfo bgred">4人桌</view>
-        </view>
-         <view class="board">
-            <view class="boardcar bgblue">
-                <text>1</text>
-            </view>
-            <view class="boardinfo bgblue">4人桌</view>
-        </view>
-        <view class="board">
-            <view class="boardcar bgred">
-                <text>1</text>
-            </view>
-            <view class="boardinfo bgred">4人桌</view>
-        </view>
+       
     </view>
 </view>

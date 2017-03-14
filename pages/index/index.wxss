@@ -47,3 +47,9 @@
     padding: 0rpx 10rpx;
     line-height: 40rpx;
 }
+.bgcol0 .boardinfo,.bgcol0 .boardcar{
+    background: #02ca99;
+}
+.bgcol1 .boardinfo,.bgcol1 .boardcar{
+    background: #ff5e63;
+}
