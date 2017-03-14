@@ -1,8 +1,14 @@
-.log-list {
-  display: flex;
-  flex-direction: column;
-  padding: 40rpx;
+.playcontent{
+  position: fixed;
+  top: 260rpx;
+  bottom: 60rpx;
 }
-.log-item {
-  margin: 10rpx;
+.menuleft{
+  height: 100%;
+  width: 200rpx;
 }
+.menuright{
+  width: 550rpx;
+  height: 100%;
+}
+

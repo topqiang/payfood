@@ -1,1 +1,49 @@
 /**index.wxss**/
+.shopbag{
+    background: #6f5b5b;
+    background-size: 750rpx auto;
+    height: 260rpx; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.shopimg{
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+}
+.shopimg image{
+    width: 100%;
+    height: 100%;
+}
+.shopinfo{
+    width: 60%;
+    color: #fff;
+}
+.boardlist{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.board{
+    width: 40%;
+    border: 2rpx solid #b5b5b5;
+    margin-bottom: 20rpx;
+    border-radius: 20rpx;
+    overflow: hidden;
+}
+.boardcar{
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 80rpx;
+    margin: 20rpx 0rpx;
+}
+.boardinfo{
+    font-size: 26rpx;
+    height: 40rpx;
+    padding: 0rpx 10rpx;
+    line-height: 40rpx;
+}

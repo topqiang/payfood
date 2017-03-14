@@ -1,4 +1,90 @@
 <!--index.wxml-->
 <view class="container">
-    
+    <view class="shopbag">
+        <view class="shopimg">
+            <image src="/img/jifen.png" mode="scaleToFill"></image>
+        </view>
+        <view class="shopinfo">
+            <view>咖啡之翼</view>
+            <view class="fs24 texovh"><image src="/img/locb.png" mode="scaleToFill" class="iconf"></image>天津市西青区鑫茂科技园1号楼B座1809</view>
+        </view>
+    </view>
+
+    <view class="boardlist texcen colfff">
+        <view class="board" bindtap="showme" data-status="{{obj.status}}" wx:for="bolist" wx:for-item="obj" wx:key="*this">
+            <view class="boardcar bgblue">
+                <text>{{obj.boardnum}}</text>
+            </view>
+            <view class="boardinfo bgblue">{{obj.mannum}}人桌</view>
+        </view>
+        
+
+        <view class="board" bindtap="showme" data-status="1">
+            <view class="boardcar bgred">
+                <text>1</text>
+            </view>
+            <view class="boardinfo bgred">4人桌</view>
+        </view>
+        
+         <view class="board" bindtap="showme" data-status="0">
+            <view class="boardcar bgblue">
+                <text>1</text>
+            </view>
+            <view class="boardinfo bgblue">4人桌</view>
+        </view>
+        <view class="board" bindtap="showme" data-status="1">
+            <view class="boardcar bgred">
+                <text>1</text>
+            </view>
+            <view class="boardinfo bgred">4人桌</view>
+        </view>
+         <view class="board">
+            <view class="boardcar bgblue">
+                <text>1</text>
+            </view>
+            <view class="boardinfo bgblue">4人桌</view>
+        </view>
+        <view class="board">
+            <view class="boardcar bgred">
+                <text>1</text>
+            </view>
+            <view class="boardinfo bgred">4人桌</view>
+        </view>
+         <view class="board">
+            <view class="boardcar bgblue">
+                <text>1</text>
+            </view>
+            <view class="boardinfo bgblue">4人桌</view>
+        </view>
+        <view class="board">
+            <view class="boardcar bgred">
+                <text>1</text>
+            </view>
+            <view class="boardinfo bgred">4人桌</view>
+        </view>
+         <view class="board">
+            <view class="boardcar bgblue">
+                <text>1</text>
+            </view>
+            <view class="boardinfo bgblue">4人桌</view>
+        </view>
+        <view class="board">
+            <view class="boardcar bgred">
+                <text>1</text>
+            </view>
+            <view class="boardinfo bgred">4人桌</view>
+        </view>
+         <view class="board">
+            <view class="boardcar bgblue">
+                <text>1</text>
+            </view>
+            <view class="boardinfo bgblue">4人桌</view>
+        </view>
+        <view class="board">
+            <view class="boardcar bgred">
+                <text>1</text>
+            </view>
+            <view class="boardinfo bgred">4人桌</view>
+        </view>
+    </view>
 </view>
