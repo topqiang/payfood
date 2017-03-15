@@ -28,6 +28,11 @@ Page({
         "mannum": 4,
         "status": 0
       }
+    ],
+    imgUrls: [
+      "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=265582129,1480240106&fm=21&gp=0.jpg",
+      "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=569334953,1638673400&fm=21&gp=0.jpg",
+      "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=680230261,3715142299&fm=21&gp=0.jpg"
     ]
   },
   onLoad: function () {

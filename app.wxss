@@ -1,16 +1,25 @@
 .fs24{
   font-size: 24rpx;
 }
+.fs48{
+  font-size: 56rpx;
+}
 .texovh{
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+}
+.ih50{
+  line-height: 100rpx;
 }
 .iconf{
   width: 30rpx;
   height: 30rpx;
   display: inline-block;
   vertical-align: middle;
+}
+.fr{
+  float: right;
 }
 .texcen{
   text-align: center;
@@ -23,4 +32,10 @@
 }
 .colfff{
   color: #fff;
+}
+.colred{
+  color: #f00;
+}
+.btn{
+  width: 150rpx;
 }

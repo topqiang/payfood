@@ -1,13 +1,117 @@
 <!--logs.wxml-->
 <view class="container">
-    <view></view>
+    <view class="shopbag">
+        <view class="shopimg">
+            <image src="/img/jifen.png" mode="scaleToFill"></image>
+        </view>
+        <view class="shopinfo">
+            <view>咖啡之翼<text class="fs48 colred">5号</text></view>
+            <view class="fs24 texovh"><image src="/img/locb.png" mode="scaleToFill" class="iconf"></image>天津市西青区鑫茂科技园1号楼B座1809</view>
+        </view>
+    </view>
     <view class="playcontent">
       <scroll-view scroll-y="true" class="menuleft">
-        
+          <view class="nav">鲜菜</view>
+          <view class="nav">鲜菜</view>
+          <view class="nav">鲜菜</view>
+          <view class="nav">鲜菜</view>
+          <view class="nav on">鲜菜</view>
+          <view class="nav">鲜菜</view>
+          <view class="nav">鲜菜</view>
+          <view class="nav">鲜菜</view>
+          <view class="nav">鲜菜</view>
+          <view class="nav">鲜菜</view>
+          <view class="nav">鲜菜</view>
+          <view class="nav">鲜菜</view>
       </scroll-view>
       <scroll-view scroll-y="true" class="menuright">
-
+        <view class="food">
+          <view class="foodimg">
+            <image src="/img/fter4.png"></image>
+          </view>
+          <view class="foodinfo">
+              <view>土豆片</view>
+              <view>￥5.00元/份</view>
+              <view>口味清淡，减肥之良品。</view>              
+          </view>
+        </view>
+        <view class="food">
+          <view class="foodimg">
+            <image src="/img/fter4.png"></image>
+          </view>
+          <view class="foodinfo">
+              <view>土豆片</view>
+              <view>￥5.00元/份</view>
+              <view>口味清淡，减肥之良品。</view>              
+          </view>
+        </view>
+        <view class="food">
+          <view class="foodimg">
+            <image src="/img/fter4.png"></image>
+          </view>
+          <view class="foodinfo">
+              <view>土豆片</view>
+              <view>￥5.00元/份</view>
+              <view>口味清淡，减肥之良品。</view>              
+          </view>
+        </view>
+        <view class="food">
+          <view class="foodimg">
+            <image src="/img/fter4.png"></image>
+          </view>
+          <view class="foodinfo">
+              <view>土豆片</view>
+              <view>￥5.00元/份</view>
+              <view>口味清淡，减肥之良品。</view>              
+          </view>
+        </view>
+        <view class="food">
+          <view class="foodimg">
+            <image src="/img/fter4.png"></image>
+          </view>
+          <view class="foodinfo">
+              <view>土豆片</view>
+              <view>￥5.00元/份</view>
+              <view>口味清淡，减肥之良品。</view>              
+          </view>
+        </view>
+        <view class="food">
+          <view class="foodimg">
+            <image src="/img/fter4.png"></image>
+          </view>
+          <view class="foodinfo">
+              <view>土豆片</view>
+              <view>￥5.00元/份</view>
+              <view>口味清淡，减肥之良品。</view>              
+          </view>
+        </view>
+        <view class="food">
+          <view class="foodimg">
+            <image src="/img/fter4.png"></image>
+          </view>
+          <view class="foodinfo">
+              <view>土豆片</view>
+              <view>￥5.00元/份</view>
+              <view>口味清淡，减肥之良品。</view>              
+          </view>
+        </view>
+        <view class="food">
+          <view class="foodimg">
+            <image src="/img/fter4.png"></image>
+          </view>
+          <view class="foodinfo">
+              <view>土豆片</view>
+              <view>￥5.00元/份</view>
+              <view>口味清淡，减肥之良品。</view>              
+          </view>
+        </view>
       </scroll-view>      
     </view>
-    <view></view>
+    <view class="footerbar ih50 texcen">
+      <view class="fr btn bgred">结单</view>
+      <view class="fr btn bgblue">拼单</view>
+      <view class="btnimg">
+        <image src="/img/gley.png"></image>
+      </view>     
+    </view>
 </view>

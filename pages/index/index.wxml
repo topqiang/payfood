@@ -1,14 +1,13 @@
 <!--index.wxml-->
 <view class="container">
-    <view class="shopbag">
-        <view class="shopimg">
-            <image src="/img/jifen.png" mode="scaleToFill"></image>
-        </view>
-        <view class="shopinfo">
-            <view>咖啡之翼</view>
-            <view class="fs24 texovh"><image src="/img/locb.png" mode="scaleToFill" class="iconf"></image>天津市西青区鑫茂科技园1号楼B座1809</view>
-        </view>
-    </view>
+    <swiper indicator-dots="true"
+  autoplay="true">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
 
     <view class="boardlist texcen colfff">
         <view class="board bgcol{{obj.status}}" bindtap="showme" data-status="{{obj.status}}" wx:for="{{bolist}}" wx:for-item="obj" wx:key="*this">
