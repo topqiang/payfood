@@ -11,17 +11,17 @@ swiper image{
 }
 .board{
     width: 40%;
-    border: 2rpx solid #b5b5b5;
     margin-bottom: 20rpx;
-    border-radius: 20rpx;
+    border-radius: 60rpx;
     overflow: hidden;
 }
 .boardcar{
-    width: 80rpx;
-    height: 80rpx;
+    width: 120rpx;
+    height: 120rpx;
     border-radius: 50%;
     display: inline-block;
-    line-height: 80rpx;
+    font-size: 40rpx;
+    line-height: 120rpx;
     margin: 20rpx 0rpx;
 }
 .boardinfo{
